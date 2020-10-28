@@ -368,12 +368,9 @@ main {
     max-width: var(--max-width-desktop-2);
   }
   .cards {
-    margin: 0 auto;
-    max-width: var(--max-width-desktop);
     -ms-grid-columns: (300px)[3];
         grid-template-columns: repeat(3, 300px);
     gap: 0;
-    place-content: stretch;
     -ms-grid-rows: (400px)[1];
         grid-template-rows: repeat(1, 400px);
   }

@@ -103,7 +103,7 @@ header {
         width: 100%;
         @include flex-1;
         max-width: var(--max-width-mob);
-        
+
 
         .toggle-button {
             width: 50px;
@@ -176,10 +176,10 @@ main {
             padding: 0.5em;
             color: hsl(237, 63%, 64%);
             background-color: var(--VeryLightGrayishBlue);
-            transition:  opacity 0.5s ease;
+            transition: opacity 0.5s ease;
             opacity: 0.8;
 
-            &:hover{
+            &:hover {
                 opacity: 1;
             }
 
@@ -192,12 +192,12 @@ main {
             color: var(--VeryLightGrayishBlue);
             font-family: var(--font);
             background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-             opacity: 0.8;
-             transition:  opacity 0.5s ease;
+            opacity: 0.8;
+            transition: opacity 0.5s ease;
 
-             &:hover{
-                 opacity: 1;
-             }
+            &:hover {
+                opacity: 1;
+            }
 
         }
 
@@ -262,13 +262,9 @@ main {
 
     .cards {
 
-
-        margin: 0 auto;
-        max-width: var(--max-width-desktop);
-        grid-template-columns: repeat(3, 300px);
+     grid-template-columns: repeat(3, 300px);
         gap: 0;
-        place-content: stretch;
-        grid-template-rows: repeat(1, 400px);
+      grid-template-rows: repeat(1, 400px);
 
 
     }
@@ -300,10 +296,10 @@ main {
 
 //js classes
 
-.current{
+.current {
     color: var(--DarkGrayishBlue);
 }
 
-.move{
+.move {
     transform: translateX(120%);
 }
