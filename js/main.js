@@ -7,10 +7,6 @@ function cardFn() {
   //annual price
   const annualPriceArr = ["$199.99", "$249.99", "$399.99"];
 
-<<<<<<< HEAD
-  
-=======
->>>>>>> 8a201eaad2d955f4335c0a77277cc1eb71da5811
   //toggleFn
   function toggleFn(e) {
     e.preventDefault();
@@ -46,9 +42,7 @@ function cardFn() {
   //cardFN-event-listeners
   toggleLabel.addEventListener("click", toggleFn);
 }
-<<<<<<< HEAD
 
 //event-listeners
 window.addEventListener("DOMContentLoaded", cardFn);
-=======
->>>>>>> 8a201eaad2d955f4335c0a77277cc1eb71da5811
+
